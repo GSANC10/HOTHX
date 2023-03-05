@@ -1,0 +1,15 @@
+ {% extends 'base.html' %}
+
+
+{% block content %}
+<section class="showcase">
+      
+    <div class="video-container">
+      <video src="static/homefilm.mp4" style="height: 500px; width: 500px;" autoplay muted loop></video>
+    </div>
+    <div class="context" style="z-index: 10;">
+      <h1>Spotlight</h1>
+      <h3>Mapping police activity in Los Angeles</h3>
+     <a href="{{ url_for('maptest')}}" class="my-btn">Check it out!</a>
+      </div>
+</section>
