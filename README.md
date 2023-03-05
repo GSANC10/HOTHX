@@ -1,5 +1,7 @@
 # HOTHX  
-  
+
+This is our ReadMe
+
 Steps:  
     &emsp; User selects where they want to eat on the hill  
     &emsp; User inputs (all inputs are optional, can be left blank):  
