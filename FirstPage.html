@@ -1,15 +1,39 @@
- {% extends 'base.html' %}
-
-
-{% block content %}
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      body{
+        background-image:url(http://weareallsimplymad.tumblr.com/post/45060844090/patrick-gif-on-we-heart-it);
+        background-repeat: no-repeat;
+        background-size: fixed;
+      }
+    </style>
+    </head>
+    <body>
+      <form>
+        <input type = "min" placeholder="Start"> <br><br>
+        <input type = "max" placeholder= "Max" id = "abc">
+        <button oneclick = alert("Here's")>Look Up</button>
+      </button>
+      </form>
+    </body>
+    <style>
+      body {
+        background-image: url('backgroun1.gif');
+        background-size: cover;
+        background-repeat: no-repeat;
+      }
+      </style>
+ </head>
+ <body>
+  <link rel="stylesheet" href="frontpage/style.css">
 <section class="showcase">
-      
-    <div class="video-container">
-      <video src="static/homefilm.mp4" style="height: 500px; width: 500px;" autoplay muted loop></video>
-    </div>
+  <p style="background-image: url('backgroun1.jpg');"></p>
     <div class="context" style="z-index: 10;">
-      <h1>Spotlight</h1>
-      <h3>Mapping police activity in Los Angeles</h3>
-     <a href="{{ url_for('maptest')}}" class="my-btn">Check it out!</a>
+      <h1><center>BruinEats</center></h1>
+      <h3><center>Revolutionizing your dining experience @UCLA!</center></h3>
+     <a href="{{ url_for('Don't click')}}" class="my-btn">Check it out!</a>
       </div>
 </section>
+</body>
+</html>
